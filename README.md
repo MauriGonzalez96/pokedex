@@ -1,2 +1,2 @@
 # pokedex
-Pokedex
+Pokedex for Frontend Engineer Challenge
