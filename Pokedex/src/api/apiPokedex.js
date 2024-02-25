@@ -1,8 +1,8 @@
 import { api } from "./axios";
 
-export const getPokemonArray = async () => {
+export const getPokemonArray = async (IDS) => {
     try{
-        const response = await api.get("/pokemon?limit=50&offset=0");
+        const response = await api.get("/pokemon?limit="+IDS+"&offset=0");
         return response }
     catch(error){
         throw error;
